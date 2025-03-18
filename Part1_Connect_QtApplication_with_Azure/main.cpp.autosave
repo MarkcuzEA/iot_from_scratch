@@ -318,7 +318,6 @@ int main(int argc, char *argv[])
 
 
     QObject::connect(&client, &IotHubClient::desiredObjectChanged, [&](const QJsonObject &desired) {
-	   qDebug() << "in connect devicetwin";
 		const auto sendIntervalKey = QLatin1String("sendInterval");
 
         auto jsonIterator = desired.constFind(sendIntervalKey);

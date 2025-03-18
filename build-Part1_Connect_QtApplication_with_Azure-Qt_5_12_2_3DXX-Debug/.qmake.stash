@@ -1,0 +1,28 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 199711L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 4
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 8
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 3
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/include/c++/4.8.3 \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/include/c++/4.8.3/arm-linux-gnueabi \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/include/c++/4.8.3/arm-linux-gnueabi/arm-linux-gnueabi \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/include/c++/4.8.3/backward \
+    c:/qtghsupport/gcc-linaro-2013/lib/gcc/arm-linux-gnueabi/4.8.3/include \
+    c:/qtghsupport/gcc-linaro-2013/lib/gcc/arm-linux-gnueabi/4.8.3/include-fixed \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/include \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/libc/usr/include
+QMAKE_CXX.LIBDIRS = \
+    c:/qtghsupport/gcc-linaro-2013/lib/gcc/arm-linux-gnueabi/4.8.3 \
+    c:/qtghsupport/gcc-linaro-2013/lib/gcc/arm-linux-gnueabi \
+    c:/qtghsupport/gcc-linaro-2013/lib/gcc \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/lib/arm-linux-gnueabi \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/lib \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/libc/lib/arm-linux-gnueabi \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/libc/lib \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/libc/usr/lib/arm-linux-gnueabi \
+    c:/qtghsupport/gcc-linaro-2013/arm-linux-gnueabi/libc/usr/lib
